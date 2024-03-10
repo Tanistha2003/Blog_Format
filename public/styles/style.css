@@ -1,0 +1,99 @@
+.btn-dark{
+    background-color: purple;
+    border-color: black;
+}
+
+.btn2{
+    background-color: purple;
+    color:white;
+}
+
+.btn1{
+   border-color:purple ;
+   background-color: white;
+}
+
+.card{
+    border-color: purple;
+}
+
+.head1{
+    background-color: purple;
+}
+
+.name{
+    color:purple;
+}
+
+.nav-link{
+    color:purple;
+}
+
+header,
+footer {
+    display:flex;
+   flex: 0 0 auto;
+}
+
+.social_icon{
+    list-style-type: none;
+    display:flex;
+    gap: 30px;
+}
+
+h1{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    color:purple;
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.profile{
+    border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        display:flex;
+        align-items: center;      
+}
+
+footer{
+    display:flex;
+    flex-direction:column;
+    margin-top: 10%;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.icon{
+    color:purple;
+    font-size: xx-large;
+}
+
+.grid_content{
+    margin-top: 6%;
+    display:grid;
+    grid-template-columns:400px 800px;
+}
+
+.info{
+    grid-area: 1/1/2/2;
+    
+}
+
+p{
+    font-size: large;
+}

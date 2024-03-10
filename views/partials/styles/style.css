@@ -1,0 +1,35 @@
+.btn-dark{
+    background-color: purple;
+    border-color: black;
+}
+
+.name{
+    color:purple;
+}
+
+.nav-link{
+    color:purple;
+}
+
+header,
+footer {
+  flex: 0 0 auto;
+}
+
+.social_icon{
+    list-style-type: none;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: purple;
+    border-radius:20% ;
+}
+
+.profile{
+    border-radius: 35px;
+}
